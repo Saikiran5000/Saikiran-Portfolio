@@ -1,0 +1,91 @@
+
+#contactPage {
+    background-color:rgb(50,50,50);
+    margin:0 auto;
+    min-height:calc(100vh-4rem);
+    width:100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 2rem;
+    margin-top: 200px;
+
+  }
+  
+  .contactTitle {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  #contact {
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contactPageTitle {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .contactDesc {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .name, .email, .msg {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .errorStyle {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  .successMessage {
+    color: green;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+    .inputFields {
+    background-color: rgb(50, 50, 50);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .inputFields::placeholder {
+    color: #fff;
+  }
+  
+  .submitBtn {
+    cursor: pointer;
+  }
+  
